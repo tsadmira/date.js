@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(139, 127, 150, 0.51);
+    font-size: 18px;
+    font-weight: 700;
+}
+.calendar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.digistal-clock{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.clock{
+    width: 550px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.clock-arrow{
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom;
+}
+.clock-seconds{
+    bottom: 50%;
+    left: 50%;
+    width: 5px;
+    height: 40%;
+}
+.clock-minutes{
+    bottom: 50%;
+    left: 50%;
+    width: 7px;
+    height: 33%;
+}
+.clock-hours {
+    bottom: 50%;
+    left: 50%;
+    width: 12px;
+    height: 24%;
+}
+.clock-center{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
