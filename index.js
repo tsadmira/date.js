@@ -54,7 +54,7 @@ setInterval(() => {
     // Change arrow in degrees
     elements.secondsArrow.style.transform = `rotate(${360 / 60 * current.seconds}deg)`;
     elements.minutesArrow.style.transform = `rotate(${360 / 60 * current.minutes}deg)`;
-    elements.hoursArrow.style.transform = `rotate(${360 / 12 * current.hours}deg)`;
+    elements.hoursArrow.style.transform = `rotate(${(360 / 12 * current.hours) + (30 / 60 * current.minutes)}deg)`;
 
 
 }, 1000)
